@@ -1,0 +1,34 @@
+body {
+	background-color: silver;
+}
+
+.solid {
+	background-color: red;
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: 2px;
+}
+
+.space {
+	display: inline-block;
+	height: 154px;
+	width: 154px;
+	background-color: lightgrey;
+	border: 0.5px solid white;
+}
+
+.hovered {
+	background-color: lightgrey;
+	border: dashed 2px white;
+}
+
+.dragged {
+	/* opacity: 0.7; */
+	box-shadow: 0px 8px 20px 0px #0000007a;
+	border: 20px solid yellow;
+}
+
+#holder {
+	display: none;
+}
